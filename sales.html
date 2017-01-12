@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-<head></head>
-<body>
-<script src="app.js"></script>
-</body>
+  <head>
+  </head>
+  <body>
+    <section id="form-section">
+      <form id="newlocation">
+        <fieldset>
+          <legend>New Location</legend>
+          <label for="location">Location Name:</label>
+          <input name="location" id="location-input" type="text"/>
+          <label for="minCust">Minimum Customer:</label>
+          <input name="minCust" id="minCust-input" type="text"/>
+          <label for="maxCust">Maximum Customer:</label>
+          <input name="maxCust" id="maxCust-input" type="text"/>
+          <label for="avgSold">Average Sold:</label>
+          <input name="avgSold" id="avgSold-input" type="text"/>
+          <button id="submit-button" type="submit">SUBMIT</button>
+        </fieldset>
+      </form>
+    </section>
+    <script src="app.js"></script>
+  </body>
 </html>
